@@ -5,8 +5,9 @@
   "homepage": "https://ionicframework.com/",
   "scripts": {
     "ng": "ng",
-    "start": "ng serve",
+    "start": "ng.cmd run app:serve --host=localhost --port=8300",
     "build": "ng build",
+    "buildProd": "ng build --configuration production && cp .htaccess dist",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "lint": "ng lint"

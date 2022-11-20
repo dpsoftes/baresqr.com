@@ -1,0 +1,19 @@
+.mainImgWrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+.mainImg {
+  width: 200px;
+  margin-bottom: 10px;
+}
+.mainImgWrapper span {
+  font-size: 2rem;
+  font-weight: 300;
+}
